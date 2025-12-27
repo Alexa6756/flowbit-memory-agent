@@ -1,0 +1,24 @@
+{
+  "purchaseOrders": [
+    {
+      "poNumber": "PO-A-050",
+      "vendor": "Supplier GmbH",
+      "date": "2024-01-05",
+      "lineItems": [{ "sku": "WIDGET-001", "qty": 100, "unitPrice": 25.0 }]
+    },
+    {
+      "poNumber": "PO-A-051",
+      "vendor": "Supplier GmbH",
+      "date": "2024-01-10",
+      "lineItems": [{ "sku": "WIDGET-001", "qty": 50, "unitPrice": 25.0 }]
+    }
+  ],
+  "deliveryNotes": [
+    {
+      "dnNumber": "DN-A-123",
+      "vendor": "Supplier GmbH",
+      "poNumber": "PO-A-050",
+      "lineItems": [{ "sku": "WIDGET-001", "qty": 100, "unitPrice": 25.0 }]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "invoiceId": "INV-A-001",
+    "vendor": "Supplier GmbH",
+    "fields": {
+      "invoiceNumber": "INV-2024-001",
+      "invoiceDate": "12.01.2024",
+      "serviceDate": null,
+      "currency": "EUR",
+      "netTotal": 2500.0,
+      "taxRate": 0.19,
+      "taxTotal": 475.0,
+      "grossTotal": 2975.0,
+      "lineItems": [{ "sku": "WIDGET-001", "qty": 100, "unitPrice": 25.0 }]
+    },
+    "confidence": 0.78,
+    "rawText": "Rechnungsnr: INV-2024-001\nLeistungsdatum: 01.01.2024\nNetto: 2500.00\nMwSt 19%: 475.00\nBrutto: 2975.00"
+  },
+  {
+    "invoiceId": "INV-A-002",
+    "vendor": "Supplier GmbH",
+    "fields": {
+      "invoiceNumber": "INV-2024-002",
+      "invoiceDate": "18.01.2024",
+      "serviceDate": null,
+      "currency": "EUR",
+      "netTotal": 1000.0,
+      "taxRate": 0.19,
+      "taxTotal": 190.0,
+      "grossTotal": 1190.0,
+      "lineItems": [{ "sku": "WIDGET-001", "qty": 40, "unitPrice": 25.0 }]
+    },
+    "confidence": 0.82,
+    "rawText": "Rechnungsnr: INV-2024-002\nLeistungsdatum: 15.01.2024\nNetto: 1000.00\nMwSt 19%: 190.00\nBrutto: 1190.00"
+  },
+  {
+    "invoiceId": "INV-A-003",
+    "vendor": "Supplier GmbH",
+    "fields": {
+      "invoiceNumber": "INV-2024-003",
+      "invoiceDate": "20.01.2024",
+      "serviceDate": null,
+      "currency": "EUR",
+      "netTotal": 1250.0,
+      "taxRate": 0.19,
+      "taxTotal": 237.5,
+      "grossTotal": 1487.5,
+      "lineItems": [{ "sku": "WIDGET-001", "qty": 50, "unitPrice": 25.0 }]
+    },
+    "confidence": 0.80,
+    "rawText": "Rechnungsnr: INV-2024-003\nLeistungsdatum: 18.01.2024\nNetto: 1250.00\nMwSt 19%: 237.50\nBrutto: 1487.50"
+  },
+  {
+    "invoiceId": "INV-B-001",
+    "vendor": "Parts AG",
+    "fields": {
+      "invoiceNumber": "PA-7781",
+      "invoiceDate": "05-02-2024",
+      "currency": null,
+      "netTotal": 2000.0,
+      "taxRate": 0.19,
+      "taxTotal": 400.0,
+      "grossTotal": 2400.0,
+      "lineItems": [{ "sku": "BOLT-99", "qty": 200, "unitPrice": 10.0 }]
+    },
+    "confidence": 0.74,
+    "rawText": "Invoice PA-7781\nVAT already included in total\nTotal: 2400.00 EUR"
+  },
+  {
+    "invoiceId": "INV-C-001",
+    "vendor": "Freight & Co",
+    "fields": {
+      "invoiceNumber": "FC-1001",
+      "invoiceDate": "01.03.2024",
+      "currency": "EUR",
+      "netTotal": 980.0,
+      "taxRate": 0.19,
+      "taxTotal": 186.2,
+      "grossTotal": 1166.2,
+      "lineItems": [{ "description": "Transport charges", "qty": 1, "unitPrice": 1000.0 }]
+    },
+    "confidence": 0.79,
+    "rawText": "Invoice FC-1001\nTransport charges: 1000.00\n2% Skonto if paid within 10 days\nNet: 980.00\nVAT 19%: 186.20\nTotal: 1166.20"
+  },
+  {
+    "invoiceId": "INV-A-004",
+    "vendor": "Supplier GmbH",
+    "fields": {
+      "invoiceNumber": "INV-2024-001",
+      "invoiceDate": "12.01.2024",
+      "serviceDate": "2024-01-01",
+      "currency": "EUR",
+      "netTotal": 2500.0,
+      "taxRate": 0.19,
+      "taxTotal": 475.0,
+      "grossTotal": 2975.0,
+      "lineItems": [{ "sku": "WIDGET-001", "qty": 100, "unitPrice": 25.0 }]
+    },
+    "confidence": 0.85,
+    "rawText": "Rechnungsnr: INV-2024-001\nLeistungsdatum: 01.01.2024\nDuplicate invoice"
+  }
+]
